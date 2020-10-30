@@ -1,0 +1,149 @@
+*{margin: 0;
+     padding: 0;}
+html {
+     width: 100%;
+     height: 100%;
+}
+body{
+     background-color: transparent;
+     background-repeat: no-repeat; 
+     background-size: auto;
+}
+
+.div2{
+     margin: auto;
+     background-image: url("https://images5.alphacoders.com/108/thumb-1920-1084317.png");
+     background-color: transparent;
+     background-repeat: no-repeat; 
+     background-size: auto;
+     background-attachment: fixed;
+     min-height: 100vh;
+     top:15px;
+     z-index: 100;
+     height: 100%;
+}
+.div3{
+     margin: auto;
+     background-image: url("https://i.redd.it/qla3ajhtjlj11.png");
+     background-color: transparent;
+     background-repeat: no-repeat; 
+     background-size: auto;
+     min-height: 100vh;
+     top:15px;
+     z-index: 200;
+     height: 100%;
+}
+
+.div2 p{
+     padding-top: 10%;
+     padding-left:2% ;
+     max-width: 40%;
+     color: #c1bde4;
+     text-align: left;
+     font-family: Comic Sans MS, Comic Sans, cursive; 
+     font-weight: 400;
+     text-shadow:5px 2px 4px #2a2dce;
+     font-size: xx-large;
+}
+.div2 h1{
+     padding-top: 7%;
+     padding-left: 1%;
+     color: antiquewhite;
+     text-align: left;
+     vertical-align: top;
+     font-family: Comic Sans MS, Comic Sans, cursive; 
+     font-weight: 400;
+     text-shadow:5px 4px 5px #2a2dce;
+     font-size: xx-large;  
+}
+.div3 p{
+     padding-top: 10%;
+     padding-left:2% ;
+     max-width: 90%;
+     color: antiquewhite;
+     text-align: center;
+     font-family: Comic Sans MS, Comic Sans, cursive; 
+     font-weight: 400;
+     font-size: xx-large;
+}
+.div3 h1{
+     padding-top: 7%;
+     padding-left: 1%;
+     color: antiquewhite;
+     text-align: center;
+     vertical-align: top;
+     font-family: Comic Sans MS, Comic Sans, cursive; 
+     font-weight: 400;
+     font-size: xx-large;  
+}
+
+header {
+     box-sizing: border-box;
+     min-height: 100vh;
+     position: relative;
+     transform-style: inherit;
+     width: 100vw;
+     text-align: center;
+     text-transform: uppercase;
+ }
+ 
+ header h1 {
+     margin: 0;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+ .parallax {
+
+     background-image: url("https://files.wallpaperpass.com/2019/10/lil%20peep%20wallpaper%20112%20-%201920x1080.png");
+     min-height: 100vh;
+     float: bottom;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+   
+   }
+   .parallax p{
+
+     padding-top: 20%;
+     padding-left: 10%;
+     padding-right: 0;
+     color: antiquewhite;
+     text-align: left;
+     float: left;
+     font-family: Comic Sans MS, Comic Sans, cursive; 
+     font-weight: 400;
+     text-shadow:5px 2px 4px #FF0040;
+     font-size: xx-large;
+}
+
+.insta img{
+     position: fixed;
+     right: 1%;
+     bottom: 60%;
+     width: 4%;
+}
+.spotify img{
+     position: fixed;
+     right: 1%;
+     bottom: 50%;
+     width: 4%;
+}
+.linkedin img{
+     position: fixed;
+     right: 1%;
+     bottom: 40%;
+     width: 4%; 
+}
+
+.contact{
+     padding-top: 10%;
+     padding-left:2% ;
+     max-width: 40%;
+     color: #c1bde4;
+     text-align: left;
+     font-family: Comic Sans MS, Comic Sans, cursive; 
+     font-weight: 400;
+     font-size: xx-large;
+}
